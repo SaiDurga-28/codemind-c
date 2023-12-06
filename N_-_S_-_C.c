@@ -2,9 +2,9 @@
 #include<math.h>
 int main()
 {
-    int a,b,i,s,c;
-    scanf("%d%d",&a,&b);
-    for(i=a+1;i<b;i++)
+    int i,n,m,s,c;
+    scanf("%d%d",&n,&m);
+    for(i=n+1;i<m;i++)
     {
         s=pow(i,2);
         c=pow(i,3);
